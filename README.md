@@ -12,17 +12,22 @@ Follow the steps below to set up and run the project for the **first time**:
 Navigate to your project folder:
 ```bash
 cd path\to\data_drift_dashboard\drift_dashboard
-2️⃣ Activate the virtual environment
+```
+### 2️⃣ Activate the virtual environment
+```bash
 .venv\Scripts\activate
-
-3️⃣ Install the required dependencies
+```
+### 3️⃣ Install the required dependencies
+```bash
 pip install -r requirements.txt
-
-4️⃣ Run the Streamlit app
+```
+### 4️⃣ Run the Streamlit app
+```bash
 streamlit run app.py
-
-🔁 Running the App Next Time
-
+```
+### 🔁 Running the App Next Time
 After the first setup, you only need to run the following command:
-
+```bash
+.venv\Scripts\activate
 streamlit run app.py
+```
